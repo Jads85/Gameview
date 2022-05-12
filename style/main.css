@@ -1,3 +1,41 @@
+:root{
+ --color1:#e50914;
+ --color2:#141414;
+ --color3:#aaa;
+ --color3h:#fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: aqua;
+    background: var(--color2);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction:;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--color1);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--color3);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--color3h);
 }
